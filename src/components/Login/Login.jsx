@@ -83,7 +83,7 @@ export default function Login() {
 
 
 
-    <div className='pt-52 max-w-xl mx-auto h-[100vh] '>
+    <div className='pt-52  max-w-xl px-10 mx-auto h-[100vh] '>
       <h1 className='text-green-600 font-bold py-5 text-3xl'>Login now</h1>
       <form onSubmit={formik.handleSubmit}>
 

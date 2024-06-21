@@ -9,6 +9,6 @@ export default function Notfound() {
 
     } , []);
   return <>
-    <img className='py-16 ' src={i4o4} alt="no found page" />
+    <img className=' ' src={i4o4} alt="no found page" />
   </>
 }

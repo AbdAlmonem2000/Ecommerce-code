@@ -19,7 +19,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className='bg-gray-100 px-24 fixed top-0 left-0 right-0 z-50 dark:bg-gray-700 '>
+    <nav className='bg-gray-100 px-24  top-0 left-0 right-0 z-50 sticky dark:bg-gray-700 '>
       <div className="container items-center flex justify-between mx-auto py-4">
         <div className='flex items-center'>
           <Link to={'./'}>

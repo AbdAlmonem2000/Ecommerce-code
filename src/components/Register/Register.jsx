@@ -98,7 +98,7 @@ export default function Register() {
 
 
 
-    <div className='pt-40 max-w-xl mx-auto h-[100vh] '>
+    <div className='pt-40 px-10 max-w-xl mx-auto h-[100vh] '>
       <h1 className='text-green-600 font-bold py-5 text-3xl'>Register now</h1>
       <form onSubmit={formik.handleSubmit}>
 

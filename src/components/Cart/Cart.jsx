@@ -104,7 +104,7 @@ export default function Cart() {
             <td className="px-6 py-4">
               <span onClick={() => removeCartItem(prod.product.id)} className="font-medium cursor-pointer text-red-600 dark:text-red-500 hover:underline">Remove</span>
             </td>
-          </tr>) : <div className='flex justify-center items-center ms-[600px] mt-60'><span className="loader "></span></div>}
+          </tr>) : <div className='flex justify-center items-center ms-[600px] mt-60 my-40'><span className="loader "></span></div>}
 
         </tbody>
       </table>
