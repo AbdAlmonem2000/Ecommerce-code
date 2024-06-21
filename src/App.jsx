@@ -35,7 +35,7 @@ let query = new QueryClient();
 
 let router = createBrowserRouter([
   {
-    path: '/Ecommerce', element: <Layout />, children: [
+    path: 'Ecommerce', element: <Layout />, children: [
       { index: true, element: <ProdcuttedRoute><Home /></ProdcuttedRoute> },
       { path: 'products', element: <ProdcuttedRoute><Products /></ProdcuttedRoute> },
       { path: 'cart', element: <ProdcuttedRoute><Cart /></ProdcuttedRoute> },
